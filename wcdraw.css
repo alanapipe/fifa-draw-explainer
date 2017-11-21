@@ -1,0 +1,187 @@
+p {
+	font-family: 'Arimo', sans-serif;
+	font-size: 14px;
+	color: #333;
+}
+
+.blurb {
+	font-family: 'Arimo', sans-serif;
+	font-size: 18px;
+	color: #333;
+	margin: 10px 8px 10px 0;
+}
+
+.flag {
+  width: 75px;
+  height: 70px;
+  font-size: 12px;
+  line-height: 1.2em;
+
+  color: #000;
+  text-align: center;
+  margin: 5px;
+  position: absolute;
+  left: -100px;
+  opacity: 0;
+  cursor:pointer;
+}
+
+.slot {
+  width: 75px;
+  height: 70px;
+  font-size: 12px;
+  line-height: 1.2em;
+  padding: 5px;
+  color: #FFF;
+  margin: 5px;
+  border: 1px dotted #CCC;
+}
+
+.hostslot {
+  width: 75px;
+  height: 70px;
+  font-size: 12px;
+  line-height: 1.2em;
+  padding: 0px;
+  color: #FFF;
+  margin: 5px;
+  border: 1px dotted #CCC;
+}
+
+.pot, .group {
+  float: left;
+  margin-right: 5px;
+}
+.gLabel {
+  text-align: center;
+  font-weight: 700;
+}
+
+.mCon {
+  float: left;
+  width: 370px;
+	/*min-width: 450px;*/
+  padding-left:10px;
+}
+
+.slide1, .slide2, #draw, .slide4{
+	float:left;
+	width 1200px;
+}
+
+.c-name {
+  font-size: 11px;
+  margin-top: 3px;
+  color: #000;
+	text-align: center;
+}
+
+.hostflag {
+	text-align: center;
+}
+
+.explainerctnr{
+	min-width:1200px;
+}
+
+.plabel-ctnr{
+	float:left;
+	line-height: 4.3;
+	padding-left: 10px;
+}
+.plabel {
+	font-weight:bold;
+}
+
+.explainer {
+  display:block;
+	float:left;
+	width: 716px;
+  align:left;
+  padding-left: 15px;
+  padding-top:15px;
+}
+
+.btnctnr {
+  display: block;
+	float:left;
+  width: 744px;
+  padding-left: 15px;
+  padding-bottom:10px;
+}
+
+button {
+	float: left;
+}
+
+button:hover {
+	color: #FFF;
+	background-color: #000;
+	cursor: pointer;
+}
+
+#randomizecopy {
+  font-weight: bold;
+}
+
+/*mobile*/
+@media (max-width: 450px ) {
+  .flag {
+    left: 15px;
+    top: 85px;
+    width: 60px;
+    height: 45px;
+    font-size: 10px;
+    line-height: 1.1em;
+  }
+
+	#hostflag {
+    left: 15px;
+    top: 85px;
+    width: 60px;
+    height: 40px;
+    font-size: 10px;
+    line-height: 1.1em;
+  }
+
+	.slot {
+	  width: 60px;
+	  height: 55px;
+	  font-size: 10px;
+	  line-height: 1.1em;
+	  padding: 5px;
+	  color: #FFF;
+	  margin: 5px;
+	  border: 1px dotted #CCC;
+	}
+
+	.hostslot {
+	  width: 60px;
+	  height: 55px;
+	  font-size: 10px;
+	  line-height: 1.1em;
+	  padding: 0px;
+	  color: #FFF;
+	  margin: 5px;
+	  border: 1px dotted #CCC;
+	}
+
+  #randomize {
+    position: relative;
+    float:left;
+  }
+
+	 .explainer{
+		width:350px;
+		float:left;
+	}
+
+  .mCon {
+		float: left;
+		width:450px;
+    border-bottom: 1px dotted #CCC;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+
+}

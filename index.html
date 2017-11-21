@@ -1,0 +1,427 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>WC DRAW - Demo</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- NBC CSS -->
+    <link href="css/nbcotsbase.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,300,100' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Arimo:400,700' rel='stylesheet' type='text/css'>
+
+    <link href="css/wcdraw.css" rel="stylesheet">
+
+    <!-- Responsive iFrame stuff -->
+    <!--
+    <script src="https://data.nbcstations.com/js/crosstalk.js"></script>
+    <script type="text/javascript">
+         document.addEventListener("DOMContentLoaded", function() {
+            xtalk.responsive = false;
+            xtalk.init();
+         });
+    </script>
+    -->
+
+  </head>
+
+  <body>
+
+<!--
+This is the draw for the 2018 World Cup in Moscow.
+A total of 32 teams made it to the 2018 World Cup. Thirty-one teams qualified by ranking. The host nation (Russia) gets a spot automatically.
+Based on their FIFA world rankings, the 32 teams are split into four pots. Pot 1 will include Russia and the seven highest-ranking teams. Pot 2 will feature the next-best eight teams, and so on for Pots 3 and 4.
+The draw then divides the 32 teams into eight groups. Each group will play three matches, before the top two countries advance to the second round in a traditional bracket system.
+
+✓-make explainers stick left w float
+✓-get buttons to stick left w float
+✓-make slide 2 stick left
+-add russia as a separate slide in 2
+
+
+
+
+-->
+    <!-- Start content here -->
+  <div id="screen1">
+
+    <div class="explainer">
+    <p class="blurb">A total of 32 teams made it to the world cup.</p>
+    </div>
+    <div class="slide1">
+      <div class="mCon inits">
+
+        <div class="pot">
+          <div class="slot"></div>
+          <div class="slot"></div>
+          <div class="slot"></div>
+          <div class="slot"></div>
+        </div>
+
+        <div class="pot">
+          <div class="slot"></div>
+          <div class="slot"></div>
+          <div class="slot"></div>
+          <div class="slot"></div>
+        </div>
+
+        <div class="pot">
+          <div class="slot" ></div>
+          <div class="slot" ></div>
+          <div class="slot" ></div>
+          <div class="slot" ></div>
+        </div>
+
+        <div class="pot">
+          <div class="slot"></div>
+          <div class="slot"></div>
+          <div class="slot"></div>
+          <div class="slot"></div>
+        </div>
+      </div><!--closes con inits-->
+
+    <div class="mCon inits">
+        <div class="pot">
+          <div class="slot"></div>
+          <div class="slot"></div>
+          <div class="slot"></div>
+          <div class="slot"></div>
+        </div>
+
+        <div class="pot">
+          <div class="slot"></div>
+          <div class="slot"></div>
+          <div class="slot"></div>
+          <div class="slot"></div>
+        </div>
+
+        <div class="pot">
+          <div class="slot"></div>
+          <div class="slot"></div>
+          <div class="slot"></div>
+          <div class="slot"></div>
+        </div>
+
+        <div class="pot">
+          <div class="slot"></div>
+          <div class="slot"></div>
+          <div class="slot"></div>
+          <div class="slot"></div>
+        </div>
+      </div><!--closes con inits-->
+    </div><!--closes slide 1-->
+    <div class="btnctnr">
+    <button type="button" id="screen1btn" class="btn btn-secondary">Step 2</button>
+  </div>
+</div><!--end screen1-->
+
+<div id="screen2">
+  <div class='explainerctnr'>
+    <div class="explainer">
+      <p class="blurb">Thirty-one teams qualified by ranking. As the host nation, Russia is guarenteed a spot at the world cup.</p>
+    </div>
+  </div>
+
+    <div class="slide2">
+
+      <div class="mCon inits">
+        <div class="pot">
+
+          <div class='hostslot'><img src="images/russia.png" class="img-fluid" id='hostflag'><div class="c-name">RUS</div></div>
+          <div class="slot"></div>
+          <div class="slot"></div>
+          <div class="slot"></div>
+        </div>
+
+        <div class="pot">
+          <div class="slot"></div>
+          <div class="slot"></div>
+          <div class="slot"></div>
+          <div class="slot"></div>
+        </div>
+
+        <div class="pot">
+          <div class="slot" ></div>
+          <div class="slot" ></div>
+          <div class="slot" ></div>
+          <div class="slot" ></div>
+        </div>
+
+        <div class="pot">
+          <div class="slot"></div>
+          <div class="slot"></div>
+          <div class="slot"></div>
+          <div class="slot"></div>
+        </div>
+      </div><!--closes con inits-->
+
+      <div class="mCon inits">
+        <div class="pot">
+          <div class="slot"></div>
+          <div class="slot"></div>
+          <div class="slot"></div>
+          <div class="slot"></div>
+        </div>
+
+        <div class="pot">
+          <div class="slot"></div>
+          <div class="slot"></div>
+          <div class="slot"></div>
+          <div class="slot"></div>
+        </div>
+
+        <div class="pot">
+          <div class="slot"></div>
+          <div class="slot"></div>
+          <div class="slot"></div>
+          <div class="slot"></div>
+        </div>
+
+        <div class="pot">
+          <div class="slot"></div>
+          <div class="slot"></div>
+          <div class="slot"></div>
+          <div class="slot"></div>
+        </div>
+      </div><!--closes con inits-->
+    </div><!--closes slide 2-->
+    <div class="btnctnr">
+      <button type="button" id="screen2btn" class="btn btn-secondary">Step 3</button>
+    </div>
+</div><!--end screen2-->
+
+<div id="screen3">
+  <div class='explainerctnr'>
+  <div class ="explainer">
+    <p class="blurb"> Based on their FIFA world rankings, the 32 teams are split into four pots. Pot 1 will include Russia and the seven highest-ranking teams. Pot 2 will feature the next-best eight teams, and so on for Pots 3 and 4.</p>
+  </div><!--explainer-->
+</div>
+
+    <div id="draw2">
+      <div class="mCon">
+        <div class="flag" id="c0" data-cname = "russia"><img src="images/russia.png" class="img-fluid"/><div class="c-name">RUS</div></div>
+        <div class="flag" id="c1" data-cname = "brazil"><img src="images/brazil.png" class="img-fluid"/><div class="c-name">BRA</div></div>
+        <div class="flag" id="c2" data-cname = "belgium"><img src="images/belgium.png" class="img-fluid"/><div class="c-name">BEL</div></div>
+        <div class="flag" id="c3" data-cname = "germany"><img src="images/germany.png" class="img-fluid"/><div class="c-name">GER</div></div>
+        <div class="flag" id="c4" data-cname = "poland"><img src="images/poland.png" class="img-fluid"/><div class="c-name">POL</div></div>
+        <div class="flag" id="c5" data-cname = "portugal"><img src="images/portugal.png" class="img-fluid"/><div class="c-name">POR</div></div>
+        <div class="flag" id="c6" data-cname = "france"><img src="images/france.png" class="img-fluid"/><div class="c-name">FRA</div></div>
+        <div class="flag" id="c7" data-cname = "argentina"><img src="images/argentina.png" class="img-fluid"/><div class="c-name">ARG</div></div>
+
+        <div class="flag" id="c10" data-cname = "spain"><img src="images/spain.png" class="img-fluid"/><div class="c-name">ESP</div></div>
+        <div class="flag" id="c8" data-cname = "mexico"><img src="images/mexico.png" class="img-fluid"/><div class="c-name">MEX</div></div>
+        <div class="flag" id="c9" data-cname = "england"><img src="images/england.png" class="img-fluid"/><div class="c-name">ENG</div></div>
+        <div class="flag" id="c11" data-cname = "croatia"><img src="images/croatia.png" class="img-fluid"/><div class="c-name">CRO</div></div> <!--nab-->
+        <div class="flag" id="c12" data-cname = "uruguay"><img src="images/uruguay.png" class="img-fluid"/><div class="c-name">URU</div></div>
+        <div class="flag" id="c13" data-cname = "colombia"><img src="images/colombia.png" class="img-fluid"/><div class="c-name">COL</div></div>
+        <div class="flag" id="c14" data-cname = "switzerland"><img src="images/switzerland.png" class="img-fluid"/><div class="c-name">SWI</div></div>  <!--nab-->
+        <div class="flag" id="c15" data-cname = "denmark"><img src="images/denmark.png" class="img-fluid"/><div class="c-name">DEN</div></div> <!--if Peru  wins they are here, Denmark is in 3 and Serbia is in 4-->
+        <!-- <div class="flag" id="c15" data-cname = "peru"><img src="images/peru.png" class="img-fluid"/><div class="c-name">PERU</div></div> -->
+      </div>
+
+      <div class="mCon">
+        <div class="flag" id="c16" data-cname = "iran"><img src="images/iran.png" class="img-fluid"/><div class="c-name">IRAN</div></div>
+        <div class="flag" id="c17" data-cname = "costa-rica"><img src="images/costa_rica.png" class="img-fluid"/><div class="c-name">COS</div></div>
+        <div class="flag" id="c18" data-cname = "egypt"><img src="images/egypt.png" class="img-fluid"/><div class="c-name">EGY</div></div>
+        <div class="flag" id="c19" data-cname = "iceland"><img src="images/iceland.png" class="img-fluid"/><div class="c-name">ICE</div></div>
+        <div class="flag" id="c20" data-cname = "serbia"><img src="images/serbia.png" class="img-fluid"/><div class="c-name">SER</div></div> <!--could be Denmark-->
+        <div class="flag" id="c21" data-cname = "sweden"><img src="images/sweden.png" class="img-fluid"/><div class="c-name">SWE</div></div>
+        <div class="flag" id="c22" data-cname = "senegal"><img src="images/senegal.png" class="img-fluid"/><div class="c-name">SEN</div></div>
+        <div class="flag" id="c23" data-cname = "tunisia"><img src="images/tunisia.png" class="img-fluid"/><div class="c-name">TUN</div></div>
+
+        <div class="flag" id="c24" data-cname = "south-korea"><img src="images/south_korea.png" class="img-fluid"/><div class="c-name">SKO</div></div>
+        <div class="flag" id="c25" data-cname = "saudia-arabia"><img src="images/saudi_arabia.png" class="img-fluid"/><div class="c-name">KSA</div></div>
+        <div class="flag" id="c26" data-cname = "nigeria"><img src="images/nigeria.png" class="img-fluid"/><div class="c-name">NGRA</div></div>
+        <div class="flag" id="c27" data-cname = "morocco"><img src="images/morocco.png" class="img-fluid"/><div class="c-name">MOR</div></div> <!--nab-->
+        <div class="flag" id="c28" data-cname = "serbia"><img src="images/serbia.png" class="img-fluid"/><div class="c-name">SER</div></div> <!--if New Zealand wins, they are here, Serbia is in 3 and Denmark is in 2-->
+        <!-- <div class="flag" id="c28" data-cname = "new_zealand"><img src="images/new_zealnd.png" class="img-fluid"/><div class="c-name">NZ</div></div> -->
+        <div class="flag" id="c29" data-cname = "panama"><img src="images/panama.png" class="img-fluid"/><div class="c-name">PAN</div></div>
+        <div class="flag" id="c30" data-cname = "japan"><img src="images/japan.png" class="img-fluid"/><div class="c-name">JAP</div></div>
+        <div class="flag" id="c31" data-cname = "australia"><img src="images/australia.png" class="img-fluid"/><div class="c-name">AUS</div></div> <!--nab-->
+      </div>
+    </div>
+
+  <!--THESE ARE THE INTIAL STARTING POSITIONS-->
+    <div id="draw3">
+
+      <!--if we want them: pot labels-->
+      <!--<div class=plabel-ctnr>
+        <p class='plabel'>Pot 1</p>
+        <p class='plabel'>Pot 2</p>
+        <p class='plabel'>Pot 3</p>
+        <p class='plabel'>Pot 4</p>
+      </div>-->
+
+        <div class="mCon inits">
+          <div class="pot">
+            <div class="slot" id="g0"></div>
+            <div class="slot" id="g1"></div>
+            <div class="slot" id="g2"></div>
+            <div class="slot" id="g3"></div>
+          </div>
+
+          <div class="pot">
+            <div class="slot" id="g4"></div>
+            <div class="slot" id="g5"></div>
+            <div class="slot" id="g6"></div>
+            <div class="slot" id="g7"></div>
+          </div>
+
+          <div class="pot">
+            <div class="slot" id="g8"></div>
+            <div class="slot" id="g9"></div>
+            <div class="slot" id="g10"></div>
+            <div class="slot" id="g11"></div>
+          </div>
+
+          <div class="pot">
+            <div class="slot" id="g12"></div>
+            <div class="slot" id="g13"></div>
+            <div class="slot" id="g14"></div>
+            <div class="slot" id="g15"></div>
+          </div>
+        </div>
+
+        <div class="mCon inits">
+          <div class="pot">
+            <div class="slot" id="g16"></div>
+            <div class="slot" id="g17"></div>
+            <div class="slot" id="g18"></div>
+            <div class="slot" id="g19"></div>
+          </div>
+
+          <div class="pot">
+            <div class="slot" id="g20"></div>
+            <div class="slot" id="g21"></div>
+            <div class="slot" id="g22"></div>
+            <div class="slot" id="g23"></div>
+          </div>
+
+          <div class="pot">
+            <div class="slot" id="g24"></div>
+            <div class="slot" id="g25"></div>
+            <div class="slot" id="g26"></div>
+            <div class="slot" id="g27"></div>
+          </div>
+
+          <div class="pot">
+            <div class="slot" id="g28"></div>
+            <div class="slot" id="g29"></div>
+            <div class="slot" id="g30"></div>
+            <div class="slot" id="g31"></div>
+          </div>
+      </div>
+    </div><!--closes con inits-->
+
+      <div style="clear:both"></div>
+      <hr/>
+    <div class='explainerctnr'>
+    <p class="explainer blurb">The draw divides the 32 teams into eight groups. The teams in each group will play each other in a bracket system. Click below to create a randomized draw, or click and drag the flags into place to create your dream draw. </p>
+    </div>
+    <div class="btnctnr">
+     <button type="button" class="btn btn-secondary" id="randomize">Randomize the Draw</button>
+     <!--<button type="button" class="btn btn-secondary" id="reset">Reset</button>-->
+   </div>
+      <hr/>
+  </div><!--closes screen 3-->
+
+  <div id="screen4">
+      <!--THESE ARE THE TARGETS-->
+    <div class="slide4">
+    <div id="draw">
+      <div class="mCon">
+        <div class="group" id="group-1">
+          <p class="gLabel">GROUP A</p>
+          <div class="slot" id="s0"></div>
+          <div class="slot" id="s1"></div>
+          <div class="slot" id="s2"></div>
+          <div class="slot" id="s3"></div>
+        </div>
+
+        <div class="group" id="group-2">
+          <p class="gLabel">GROUP B</p>
+          <div class="slot" id="s4"></div>
+          <div class="slot" id="s5"></div>
+          <div class="slot" id="s6"></div>
+          <div class="slot" id="s7"></div>
+        </div>
+
+        <div class="group" id="group-3">
+          <p class="gLabel">GROUP C</p>
+          <div class="slot" id="s8"></div>
+          <div class="slot" id="s9"></div>
+          <div class="slot" id="s10"></div>
+          <div class="slot" id="s11"></div>
+        </div>
+
+        <div class="group" id="group-4">
+          <p class="gLabel">GROUP D</p>
+          <div class="slot" id="s12"></div>
+          <div class="slot" id="s13"></div>
+          <div class="slot" id="s14"></div>
+          <div class="slot" id="s15"></div>
+        </div>
+      </div>
+
+      <div class="mCon">
+        <div class="group" id="group-5">
+          <p class="gLabel">GROUP E</p>
+          <div class="slot" id="s16"></div>
+          <div class="slot" id="s17"></div>
+          <div class="slot" id="s18"></div>
+          <div class="slot" id="s19"></div>
+        </div>
+
+        <div class="group" id="group-6">
+          <p class="gLabel">GROUP F</p>
+          <div class="slot" id="s20"></div>
+          <div class="slot" id="s21"></div>
+          <div class="slot" id="s22"></div>
+          <div class="slot" id="s23"></div>
+        </div>
+
+        <div class="group" id="group-7">
+          <p class="gLabel">GROUP G</p>
+          <div class="slot" id="s24"></div>
+          <div class="slot" id="s25"></div>
+          <div class="slot" id="s26"></div>
+          <div class="slot" id="s27"></div>
+        </div>
+
+        <div class="group" id="group-8">
+          <p class="gLabel">GROUP H</p>
+          <div class="slot" id="s28"></div>
+          <div class="slot" id="s29"></div>
+          <div class="slot" id="s30"></div>
+          <div class="slot" id="s31"></div>
+        </div>
+      </div>
+    </div> <!-- closes div id=draw for screenshot-->
+  </div><!--closes slide4-->
+      <div class="explainer" id="last-explainer">
+        <p class="blurb">Once the draw is decided, each group will play three matches, before the top two countries advance to the second round in a traditional bracket system.</p>
+    </div>
+    <div class='btnctnr'>
+    <button type='button' class = 'btn btn-secondary' id='screenshot'>Share my draw</button>
+  </div>
+  </div><!--closes screen 4-->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <!--<script src="js/tether.min.js"></script>-->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/explain.js"></script>
+    <script src="js/wcdraw_.js"></script>
+    <script src="images/html2canvas.js"></script>
+
+
+
+  </body>
+</html>
